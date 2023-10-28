@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Add a short description here"
 authors = ["Robin Beer <r.beer@outlook.de>"]
 channels = ["conda-forge"]
-platforms = ["linux-64"]
+platforms = ["linux-64", "win-64", "osx-64", "osx-arm64"]
 
 [tasks]
 start = "streamlit run app.py"
