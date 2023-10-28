@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "copopi"
+version = "0.1.0"
+description = "An example project to compare package managers."
+authors = ["Robin Beer <r.beer@outlook.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.28.0"
+fastapi = "^0.104.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
