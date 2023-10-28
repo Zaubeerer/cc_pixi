@@ -9,3 +9,6 @@ platforms = ["linux-64"]
 [tasks]
 
 [dependencies]
+python = "3.11.*"
+streamlit = "1.28.0.*"
+pytest = "7.4.3.*"
